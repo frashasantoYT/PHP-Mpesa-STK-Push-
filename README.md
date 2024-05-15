@@ -2,7 +2,4 @@
 
 Php code to demonstrate how to implement stk push using Mpesa Daraja Api 
 
-<video src="/demo/video.mp4" width="640" height="360" controls>
-  Your browser does not support the video tag.
-</video>
-
+![demo image](/demo/demo.png/)
