@@ -2,3 +2,5 @@
 
 Php code to demonstrate how to implement stk push using Mpesa Daraja Api 
 
+![Demo video](/demo/video.mp4)
+
