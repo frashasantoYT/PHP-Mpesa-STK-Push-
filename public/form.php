@@ -58,7 +58,7 @@
             const errorMessage = document.getElementById('error-message');
             const responseDetails = document.getElementById('response-details');
             const errorDetails = document.getElementById('error-details');
-            const loader = document.getElementById('loader'); // Get loader element
+            const loader = document.getElementById('loader'); 
 
             const isValidPhone = /^(2547\d{8}|07\d{8})$/.test(phoneValue);
             if (!isValidPhone) {
@@ -69,7 +69,7 @@
 
             phoneError.textContent = '';
 
-            // Convert local phone number format to international format
+            
             if (phoneValue.startsWith('07')) {
                 phoneInput.value = '254' + phoneValue.substring(1);
             }
@@ -77,7 +77,7 @@
             // Show loader when form is submitted
             loader.style.display = 'block';
 
-            // AJAX to submit form and display response message
+           
             event.preventDefault();
             const formData = new FormData(this);
             fetch('index.php', {
