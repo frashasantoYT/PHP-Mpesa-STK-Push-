@@ -2,4 +2,4 @@
 
 Php code to demonstrate how to implement stk push using Mpesa Daraja Api 
 
-![demo image](/demo/demo.png/)
+![demo image](/demo/2.png/)
